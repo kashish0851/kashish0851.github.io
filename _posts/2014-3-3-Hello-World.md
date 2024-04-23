@@ -66,7 +66,7 @@ Before you begin, ensure that you have the following installed:
      CREATE TABLE student (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(40), roll_number INT, class VARCHAR(16));
      CREATE TABLE teacher (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(40), subject VARCHAR(40), class VARCHAR(16));
      
-     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/8.png)
+     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/9.png)
 2. *Backend Application:*
 
    - Navigate to the backend directory.
@@ -74,12 +74,12 @@ Before you begin, ensure that you have the following installed:
      bash
      docker build -t backend .
      
-     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/9.png)
+     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/10.png)
    - Run the backend container:
      bash
      docker run -d -p 3500:3500 --name backend-container --network=three-tier-network backend
      
-     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/10.png)
+     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/11.png)
 3. *Frontend Application:*
 
    - Navigate to the frontend directory.
@@ -87,16 +87,16 @@ Before you begin, ensure that you have the following installed:
      bash
      docker build -t frontend .
      
-     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/11.png)
+     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/12.png)
    - Run the frontend container:
      bash
      docker run -d --name frontend-container --network=three-tier-network -p 80:80 frontend
      
-     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/12.png)
+     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/13.png)
 4. *Access the Application:*
 
    Open your favorite browser and visit [http://localhost:80](http://localhost:80). Enjoy exploring the MERN stack application!
-   ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/1.png)
+   ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/14.png)
 
     
 ## Data Persistence
