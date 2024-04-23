@@ -92,11 +92,11 @@ Before you begin, ensure that you have the following installed:
      bash
      docker run -d --name frontend-container --network=three-tier-network -p 80:80 frontend
      
-     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/13.png)
+     ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/14.png)
 4. *Access the Application:*
 
    Open your favorite browser and visit [http://localhost:80](http://localhost:80). Enjoy exploring the MERN stack application!
-   ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/14.png)
+   ![Alt Text](https://raw.githubusercontent.com/kashish0851/kashish0851.github.io/master/images/15.png)
 
     
 ## Data Persistence
